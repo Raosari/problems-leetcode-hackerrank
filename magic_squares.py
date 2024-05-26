@@ -36,6 +36,9 @@ def obtain_rotated_matrix(matrix,times):
     array_of_matrix = [matrix]
     for _ in range(times):
         array_of_matrix.append(rotate_matrix_90(array_of_matrix[-1]))
+    return array_of_matrix
+
+# first try to define reflect matrix function
 # def reflect_matrix(matrix_for_reflect):
 #     qty_of_matrix = len(matrix_for_reflect[0])
 #     for matrix in range(qty_of_matrix):
@@ -76,6 +79,7 @@ reflect_rotated = obtain_reflected_matrix(rotated)
 
 allMagicSquares = reflect_rotated + rotated
 
+
 def distance(matrix_a):
     min_cost = float('inf')
     for matrix in allMagicSquares:
@@ -88,10 +92,3 @@ def distance(matrix_a):
 
 a = distance(matrix_given)
 print(a)
-
-
-# for el in allMagicSquares:
-#     for row in el:
-#         print(row)
-#     print("\n")
-
