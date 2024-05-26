@@ -1,0 +1,7 @@
+
+
+Lo unico que cambiaria es colocar en la publicidad o antes de comenzar el curso los requerimientos
+del curso, y escoger todos juntos un sistema, pej. colocar instalar python antes de iniciar curso, con un video de como se instala
+o todos usar una plataforma, ya sea replit o colab.
+Porque el ir disparejos como que si confunde un poco o el hecho de que sobre la marcha hay que aprender a
+moverle al visual studio, o python etc y no saber las diferencias. si nos hubieramos preparado desde antes para eso hubiera estado padre.
